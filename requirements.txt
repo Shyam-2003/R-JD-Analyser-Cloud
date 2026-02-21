@@ -9,8 +9,5 @@ PyPDF2>=3.0.1
 # LangChain core components (prompt templates, parsers)
 langchain-core>=0.3.0
 
-# LangChain Ollama integration for local LLMs
-langchain-ollama>=0.1.0
-
-# Ollama backend for running models like Llama locally
-ollama>=0.1.0
+# LangChain Ollama integration for Community LLMs
+langchain_community>=0.1.0
