@@ -7,7 +7,7 @@ It uses **LangChain + Ollama** for LLM‑powered analysis and **PyPDF2** for PDF
 ## Features
 - Upload your **resume (PDF)**.
 - Upload or paste a **job description (PDF or text)**.
-- Analyze the match using an LLM (via Ollama).
+- Analyze the match using an Cloud based LLM (via Ollama).
 - Get structured JSON output with:
   - Job Title match
   - Roles & Responsibilities match
@@ -18,3 +18,15 @@ It uses **LangChain + Ollama** for LLM‑powered analysis and **PyPDF2** for PDF
   - Suggestions for improvement
 
 ### It's similar to my R-JD-Analyser-Offine but its completly a cloud version and it improves efficiency and greatly reduces timetaken for analysis.
+
+# To install dependencies
+  pip install -r requirements.txt
+
+# To Run a Application in web
+  streamlit run main.py
+
+PROJECT HIERARCHY
+-- App.py
+-- main.py
+-- requirements.txt
+
