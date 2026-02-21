@@ -10,4 +10,8 @@ PyPDF2>=3.0.1
 langchain-core>=0.3.0
 
 # LangChain Ollama integration for Community LLMs
-langchain_community>=0.1.0
+langchain-community>=0.0.10
+
+# LangChain Ollama integration for OpenAI LLMs
+langchain-openai>=0.0.5
+openai>=1.0.0
