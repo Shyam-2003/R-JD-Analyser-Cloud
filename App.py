@@ -1,4 +1,4 @@
-from langchain_community.llms import Ollama
+from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
 
@@ -21,7 +21,7 @@ def chat(resume_text, job_des):
         """
     )
 
-    llm = Ollama(model="gpt-oss:120b-cloud", temperature=0.1)
+    llm = ChatOpenAI(model="gpt-4", temperature=0.1)
     parser = JsonOutputParser()
 
     chain = prompt | llm | parser
