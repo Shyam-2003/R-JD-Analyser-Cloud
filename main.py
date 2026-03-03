@@ -1,6 +1,6 @@
 import streamlit as st
 from PyPDF2 import PdfReader
-from App import chat
+from app import chat
 
 st.set_page_config(page_title="RESUME ANALYSER")
 st.title("Resume and Job Description Matcher")
